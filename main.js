@@ -1,4 +1,4 @@
 let a = "Hello world";
 console.log(a);
-let b = "Hello Kitty";
+let b = "Hello cac ban";
 console.log(b);
