@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.carousel {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+/* Product */
+.product {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.product > p {
+  text-align: center;
+  margin: 25px 0;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.product .product-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product .product-selection {
+  width: 20%;
+  max-height: 1000px;
+  background: #fff;
+}
+
+.product .product-content {
+  width: 78%;
+}
+
+.product .product-filter {
+  padding: 1em 2em 1rem;
+  margin: 0 5px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.product .product-filter h4 {
+  font-size: 15px;
+  padding-top: 5px;
+  margin-right: 15px;
+  min-width: 100px;
+}
+
+.product .part {
+  display: flex;
+}
+
+.product .brand-list {
+  font-size: 14px;
+  color: #595959;
+}
+
+.product .brand-list a {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-weight: 350;
+  padding: 4px 9px;
+  margin-right: 5px;
+}
+
+.product .brand-list a:hover {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.product .price-list a {
+  text-decoration: none;
+  font-size: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-right: 6px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+}
+
+.product .price-list a:hover {
+  border-color: #000;
+}
+
+.product .sort_by {
+  margin-top: 15px;
+}
+
+.product .trending-list a {
+  text-decoration: none;
+  margin-right: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+}
+
+.product .trending-list a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.product .product-list {
+  margin-top: 10px;
+}
+
+.product .product-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .product-item {
+  width: 25%;
+  background: #fff;
+  margin: 5px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.product .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product .product-desc {
+  padding: 14px 10px 10px;
+  text-align: left;
+}
+
+.product .product-brand a {
+  text-decoration: none;
+  color: #999;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.product .product-name a {
+  color: #252a2b;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  max-height: 23px;
+  overflow: hidden;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.product .product-price {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  letter-spacing: 0.025em;
+  font-weight: bold;
+}
