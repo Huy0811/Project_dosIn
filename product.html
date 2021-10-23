@@ -11,6 +11,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/product.css" />
   </head>
   <body>
@@ -77,7 +84,168 @@
     <section class="product">
       <p>Sản phẩm</p>
       <div class="product-wrapper">
-        <div class="product-selection"></div>
+        <div class="product-selection">
+          <div class="product-sidebar">
+            <div class="category-group">
+              <div class="category-header">
+                <h4>
+                  <a href="#">NAM</a>
+                  <i
+                    onclick="show(`show-male`,`hide-male`)"
+                    id="show-male"
+                    class="fas fa-plus"
+                  ></i>
+                  <i
+                    onclick="hide(`show-male`,`hide-male`)"
+                    id="hide-male"
+                    class="fas fa-minus"
+                  ></i>
+                </h4>
+              </div>
+              <ul class="category-option" id="option">
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO KHOÁC</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO THUN</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">QUẦN</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">GIÀY / DÉP</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO SWEATER</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO HOODIE</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO SƠ MI</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO CỔ TRỤ</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ĐỒ BƠI</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ĐỒ LÓT, ĐỒ MẶC NHÀ</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">PHỤ KIỆN NAM</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ĐỒ BỘ</a>
+                  </h4>
+                </li>
+              </ul>
+            </div>
+            <div class="category-group">
+              <div class="category-header">
+                <h4>
+                  <a href="#">NỮ</a>
+                  <i
+                    onclick="show(`show-female`,`hide-female`)"
+                    id="show-female"
+                    class="fas fa-plus"
+                  ></i>
+                  <i
+                    onclick="hide(`show-female`,`hide-female`)"
+                    id="hide-female"
+                    class="fas fa-minus"
+                  ></i>
+                </h4>
+              </div>
+              <ul class="category-option" id="option">
+                <li class="item">
+                  <h4>
+                    <a href="#">JUMPSUIT</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO KHOÁC</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO THUN</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ĐẦM</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO DÂY</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">QUẦN</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO SWEATER</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ÁO HOODIE</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">VÁY</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ĐỒ LÓT, ĐỒ MẶC NHÀ</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">PHỤ KIỆN NỮ</a>
+                  </h4>
+                </li>
+                <li class="item">
+                  <h4>
+                    <a href="#">ĐỒ BỘ</a>
+                  </h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div class="product-content">
           <div class="product-filter">
             <div class="part">
@@ -383,270 +551,6 @@
                 </div>
               </div>
             </div>
-            <div class="product-row">
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-1.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Xì Que Đờ Xoài - XQX</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>420,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-2.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Tay Dài Đẹp Lắm - ATD Trắng</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-3.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Tay Dài Đẹp Lắm - ATD Đen</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-4.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Thun Nước Sôi - NST</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="product-row">
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-1.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Xì Que Đờ Xoài - XQX</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>420,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-2.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Tay Dài Đẹp Lắm - ATD Trắng</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-3.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Tay Dài Đẹp Lắm - ATD Đen</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-4.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Thun Nước Sôi - NST</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="product-row">
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-1.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Xì Que Đờ Xoài - XQX</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>420,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-2.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Tay Dài Đẹp Lắm - ATD Trắng</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-3.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Tay Dài Đẹp Lắm - ATD Đen</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-4.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Thun Nước Sôi - NST</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="product-row">
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-1.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Xì Que Đờ Xoài - XQX</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>420,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-2.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Tay Dài Đẹp Lắm - ATD Trắng</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-3.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Tay Dài Đẹp Lắm - ATD Đen</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-              <div class="product-item">
-                <a href="#" class="image">
-                  <img src="./images/product-4.jpeg" alt="" />
-                </a>
-                <div class="product-desc">
-                  <div class="product-brand">
-                    <a href="#">Degrey</a>
-                  </div>
-                  <h4 class="product-name">
-                    <a href="#">Áo Thun Nước Sôi - NST</a>
-                  </h4>
-                  <div class="product-price">
-                    <p>350,000₫</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -657,5 +561,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/product.js"></script>
   </body>
 </html>
