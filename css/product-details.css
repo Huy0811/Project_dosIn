@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#product-details{
+    background-color:#E6E6E6 ;
+    width: 100%;
+    height: 1550px;
+    
+}
+#product-img{
+    background-color: red;
+    width: 720px;
+    height: 1500px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.big-img1{
+    width: 100%;
+    height: 750px;
+    background-color: #E6E6E6;
+}
+#big-img3{
+    width: 100%;
+    height: 750px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#big-img4{
+    width: 100%;
+    height: 750px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#infor-product{
+    background-color: #E6E6E6;
+    width: 480px ;
+    height: 1500px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#value{
+    background-color: snow;
+    width: 480px;
+    height: 280px;
+}
+
+#name1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#565656 ;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#icon1{
+    float: left;
+    padding-top: 5px;
+}
+#name2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-left: 10px;
+    color: black;
+}
+#price1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+#name3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange ;
+    font-size: 14px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#name4{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#BDBDBD ;
+    font-size: 14px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#size1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#565656;
+    font-size: 14px;
+    padding-left: 10px;
+    float: left;
+}
+#color{
+    width: 100%;
+    height: 40px;
+    background-color: snow;
+    margin-top: 15px;
+}
+#size2{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#565656;
+    font-weight: normal;
+    float: left;
+    font-size: 16px;
+}
+#size{
+    background-color: snow;
+    margin-top: 18px;
+    width: 100%;
+    height: 30px;
+}
+#number{
+    background-color: snow;
+    width: 100%;
+    height: 30px;
+    margin-top: 18px;
+    float: left;
+}
+#number1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#565656 ;
+    font-size: 14px;
+    padding-left: 10px;
+    float: left;
+}
+#number2{
+    margin-left: 5px;
+    height: 15px;
+    width: 15px;
+}
+#painted{
+    background-color: snow;
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+}
+#painted1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#565656 ;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px
+}
+#add{
+    background-color: black;
+    width: 100%;
+    height: 48px;
+    margin-top: 40px;  
+}
+#add1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: snow;
+    font-weight: normal;
+    padding-top: 13px;
+}
+#painted3{
+    background-color: snow;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+}
+#painted4{
+    text-align: center;
+    padding-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#565656 ;
+}
+#painted5{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#565656 ;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#table1{
+    background-color: #E6E6E6;
+}
+.table2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#565656 ;
+}
+#table3{
+    background-color: #E6E6E6;
+}
+#table{
+    margin-top: 15px;
+    width: 100%;
+    height: 70px;
+}
+#same-brand{
+    background-color: #E6E6E6 ;
+    ;
+    width: 100%;
+    height: 450px;
+}
+.tiltle-product {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-left: 10px;
+  }
+  .product-list {
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+  }
+  .product {
+    background-color: snow;
+    width: 245px;
+    height: 330px;
+    float: left;
+    margin: 12px;
+  }
+  .img-product {
+    width: 245px;
+  }
+  .name-product {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 10px;
+  }
+  .price {
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  
+  
+  .brand-product {
+    color: #999;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 10px;
+  }
+#same-category{
+    background-color: #E6E6E6 ;
+    width: 100%;
+    height: 800px;
+}
