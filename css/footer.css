@@ -1,0 +1,152 @@
+.footer .service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 0 40px;
+}
+
+.footer .service-item {
+  text-align: center;
+  padding: 16px 0;
+  width: 33.3%;
+}
+
+.footer .service-item p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .service-item span {
+  font-size: 12px;
+  color: #bdbdbd;
+  padding-top: 4px;
+}
+
+.footer .content {
+  display: flex;
+  padding: 50px 40px;
+}
+
+.footer .content-item {
+  width: 20%;
+}
+
+.footer .content-item p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.footer .content-item .time {
+  color: #555;
+  font-weight: 300;
+  display: block;
+  padding-top: 2px;
+  font-size: 12px;
+}
+
+.footer .content-item .icon {
+  font-size: 25px;
+  color: #3f3f3f;
+  margin: 10px 0;
+}
+
+.footer .content-item .fab {
+  margin-right: 10px;
+}
+
+.footer .content-item a {
+  display: block;
+  margin: 10px;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer .content-item a:hover {
+  color: rgb(127, 129, 255);
+  transition: 2ms;
+}
+
+.footer .content-item .cash {
+  border: solid 1px #d5d5d5;
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.footer .content-item .payment {
+  margin: 15px 0;
+}
+
+.footer .content-item .payment-item {
+  margin-bottom: 20px;
+}
+
+.footer .content-item .partner {
+  margin-bottom: 15px;
+}
+
+.footer .content-item .company {
+  display: block;
+  margin: 10px 0;
+}
+
+.footer .content-item .email {
+  margin: 14px 0;
+  display: flex;
+}
+
+.footer .content-item .email button {
+  color: white;
+  background: #3d3d3d;
+  padding: 4px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  right: 41px;
+  width: 30%;
+}
+
+.footer .content-item .email input {
+  border: 0.8px solid #d2d2d2;
+  border-radius: 0;
+  font-size: 12px;
+  padding: 6px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 70%;
+}
+
+.footer .content-item .download {
+  margin: 25px 0 15px;
+}
+
+.footer .content-item .app {
+  display: flex;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+
+.footer .license {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 70px;
+  color: #777;
+  border-top: 1px solid #f0f0f0;
+  font-size: 11px;
+  padding-top: 15px;
+}
+
+.footer .license-item p {
+  padding: 0px 0 4px;
+  line-height: 17px;
+}
+
+.footer .license-item a {
+  color: #000;
+  text-decoration: none;
+}
