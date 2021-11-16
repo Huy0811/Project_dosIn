@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="cart-page">
+    <div class="cart-left">
+        <ul class="breadcrumb">
+            <li><a href="#">DOSI-IN.COM</a></li>
+            <li><a href="#">Nội dung giỏ hàng</a></li>
+            <li><a href="#">2 sản phẩm</a></li>
+        </ul>
+        <div class="pairing">
+            <div class="pairing-header">
+                <h1>Mua kèm đơn hàng giảm 154k</h1>
+            </div>
+            <div class="pairing-body">
+                <div class="pairing-content">
+                    <img src="https://static.dosi-in.com/images/bo-bai.jpg">
+                    <div class="pairing-content-right">
+                        <h5 class="pairing-content-right top">DOSIIN OFFICIAL</h5>
+                        <h4 class="pairing-content-right product-name">HỘP TÂN NIÊN - DOSIIN MERCH BOX</h4>
+                        <span class="freeship">FREESHIP</span>
+                        <div class="Giảm-còn" >
+                            <span>Giảm còn: 45,000đ</span>
+                            <span class="old-price">199,000đ</span>
+                            <a class="order-link" href="#">ĐẶT HÀNG</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="cart-item">
+            <div class="cart-item product-info">
+                <img src="https://static.dosi-in.com/images/thumbnails/115/115/detailed/50/dosiin-the-laughter-streetwear-the-laughter-silence-rose-t-shirt-5017550175.jpg">
+                <div class="product-info-detail">
+                    <h5 class="collection-name">THE LAUGHTER STREETWEAR</h5>
+                    <h4 class="product-name">THE LAUGHTER - SILENCE ROSR T SHIRT BLACK</h4>
+                    <h5 class="size">Size: M</h5>
+                </div>
+            <div class="cart-item quantity">
+                <h5>Số lượng:</h5>
+                <button class="quantity-button">-</button>
+                <input type="quantity-number" class="input" value="1" min="1" />
+                <button class="quantity-button">+</button>
+            </div>
+            <div class="cart-item price">
+                <h5 class="new-price">250,000đ</h5>
+                <h5 class="old-price">400,000đ</h5>
+            </div>
+            <i class="fas fa-window-close"></i>
+        </div>
+    </div>
+    </div>
+    <div class="card-right">
+        <div class="card-right1">
+            <h3>Xin chào, thành viên không đăng ký</h3>
+            <p>Các khuyến mãi, sử dụng điểm thưởng chỉ dành cho các thành viên Dosiin. Bạn hãy đăng ký thành viên để nhận được ưu đãi nhé!</p>
+            <a class="login" href="#">ĐĂNG NHẬP</a>
+        </div>
+        <div class="card-right2"></div>
+            <div class="card-right2-content">
+                <div class="content">
+                    <h4>Tạm tính</h4>
+                    <h4>550,000đ</h4>
+                </div>
+                <div class="content">
+                    <h4>Phí vận chuyển</h4>
+                    <a href="#"><h4>Chọn địa chỉ</h4></a>
+                </div>
+                <div class="content">
+                    <h4>Tổng tiền</h4>
+                    <h4>550,000đ</h4>
+                </div>
+            </div>
+                <a class="choose-address">CHỌN ĐỊA CHỈ GIAO HÀNG</a>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $(function() {
+ $(".button").on("click", function() {
+   var $button = $(this);
+   var $parent = $button.parent(); 
+   var oldValue = $parent.find('.input').val();
+
+   if ($button.text() == "+") {
+      var newVal = parseFloat(oldValue) + 1;
+    } else {
+       // Don't allow decrementing below zero
+      if (oldValue > 1) {
+        var newVal = parseFloat(oldValue) - 1;
+        } else {
+        newVal = 1;
+      }
+      }
+    $parent.find('a.add-to-cart').attr('data-quantity', newVal);
+    $parent.find('.input').val(newVal);
+ });
+});
+    </script>
+</body>
+</html>
