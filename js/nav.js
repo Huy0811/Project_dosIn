@@ -21,6 +21,7 @@ export function createNav() {
       <li class="link-item"><a href="#" class="link header-item">home</a></li>
       <li class="link-item"><a href="#" class="link header-item">product</a></li>
       <li class="link-item"><a href="login.html" class="link header-item">login</a>
+      <li class="link-item"><a href="product-details.html" class="link header-item">product detail</a>
     </ul>
   `;
 }
