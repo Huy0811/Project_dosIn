@@ -1,5 +1,7 @@
 import { createNav } from "./nav.js";
 import { createFooter } from "./footer.js";
+import { createCarousel } from "./product.js";
+import { createProduct } from "./product.js";
 
 let page = document.querySelector(".main");
 
@@ -756,7 +758,12 @@ function addHeaderAction() {
       });
     } else if (element.text == "product") {
       element.addEventListener("click", function () {
-        document.getElementById("main-content").innerHTML = ``;
+        document.getElementById("main-content").innerHTML = `
+          <div class="carousel"></div>
+          <section class="product-page"></section>
+        `;
+        createCarousel();
+        createProduct();
       });
     }
   }
