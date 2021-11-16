@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "footer.css";
 @import "product.css";
+@import "cart.css";
 
 /* Cards-container */
 .product {
