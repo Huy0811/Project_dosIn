@@ -13,13 +13,14 @@ export function createNav() {
           />
           <button class="search-btn">search</button>
         </div>
-        <a href="#"><img src="images/user.jpg" alt="" /></a>
+        <a href="login.html"><img src="images/user.jpg" alt="" /></a>
         <a href="#"><img src="images/cart.jpg" alt="" /></a>
       </div>
     </div>
     <ul class="links-container">
       <li class="link-item"><a href="#" class="link header-item">home</a></li>
       <li class="link-item"><a href="#" class="link header-item">product</a></li>
+      <li class="link-item"><a href="login.html" class="link header-item">login</a>
     </ul>
   `;
 }

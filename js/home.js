@@ -2,6 +2,7 @@ import { createNav } from "./nav.js";
 import { createFooter } from "./footer.js";
 import { createCarousel } from "./product.js";
 import { createProduct } from "./product.js";
+ 
 
 let page = document.querySelector(".main");
 
