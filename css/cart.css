@@ -37,8 +37,7 @@ ul.breadcrumb li a:hover {
   float: left;
   padding: 0 40px;
 }
-.pairing {
-}
+
 .pairing-header {
   height: 40px;
   align-items: center;
@@ -112,8 +111,7 @@ ul.breadcrumb li a:hover {
   height: 30px;
   padding: 40px;
 }
-.quantity-button {
-}
+
 .input {
   width: 30px;
   text-align: center;
@@ -149,10 +147,7 @@ ul.breadcrumb li a:hover {
   padding: 20px 20px;
   background-color: #eee;
 }
-.content {
-  display: flex;
-  justify-content: space-between;
-}
+
 .content a {
   text-decoration: none;
   color: #666666;
